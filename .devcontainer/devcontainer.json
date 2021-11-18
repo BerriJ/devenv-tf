@@ -1,8 +1,8 @@
 {
     "name": "DevEnv",
-    "image": "ghcr.io/berrij/devenv:latest",
+    "image": "ghcr.io/berrij/devenvtf:latest",
     // Grant xhost access to root user in order to start x11 devices (r plots)
-    "initializeCommand": "docker pull ghcr.io/berrij/devenv:latest",
+    "initializeCommand": "docker pull ghcr.io/berrij/devenvtf:latest",
     // Arguments to docker run so container can use local x11
     "runArgs": [
         "--rm",
@@ -33,12 +33,6 @@
         "ms-python.vscode-pylance",
         "ms-python.python",
         "visualstudioexptteam.vscodeintellicode",
-        // R
-        "ikuyadeu.r",
-        "rdebugger.r-debugger",
-        // Latex
-        "james-yu.latex-workshop",
-        "znck.grammarly",
         // Git
         "npxms.hide-gitignored",
         "eamodio.gitlens",
