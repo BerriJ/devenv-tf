@@ -3,10 +3,10 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 env:
-  IMAGE_NAME: devenv
+  IMAGE_NAME: devenvtf
 
 jobs:
   docker:
